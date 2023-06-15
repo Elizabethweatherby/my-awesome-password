@@ -28,9 +28,24 @@ function generatePassword() {
   var passwordLength = prompt('How many characters would you like?');
   console.log(passwordLength);
 
+  if (passwordLength >= 8 && passwordLength <= 128) {
+    console.log("Valid input");
+  } else {
+    alert("Invalid input");
+    generatePassword()
+    return
+  }
+
   var includeSpecialChars = window.confirm('Would you like to include special characters?');
   console.log(includeSpecialChars);
 
+  var includeUpperCase = window.confirm('Would you like to include uppercase letters?');
+  console.log(includeUpperCase);
+
+  var includeLowerCase = window.confirm('Would you like to include lowercase letters?');
+  console.log(includeLowerCase);
+  
+  var includeNumbers = window.confirm('Would you like to include numbers?');
   var password = '';
   
   for (var i = 0; i < passwordLength; i++) {
