@@ -1,3 +1,4 @@
 In todays world, you need a login and password for just about everything. What better way to keep your accounts safe then with a random generated password thats impossible to guess? Using JavaScript I have created a random password generator. Simply click generate password then follow the prompts that appear on the screen: how many characters would you like? Include special characters? Open the console to see whats going on inside! 
 For this challenge I received help from my TA during office hours with the commenting on lines 24, 44, and 52. I also found help starting my JavaScript code from lines 2-22 at https://www.tutorialstonight.com/password-generator-in-javascript. 
 Link to deployed live application: https://elizabethweatherby.github.io/my-awesome-password/
+![Screenshot 2023-06-14 141804](https://github.com/Elizabethweatherby/my-awesome-password/assets/47335796/f73105d7-88d9-4693-812e-3619f72b2f79)
